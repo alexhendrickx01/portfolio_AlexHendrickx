@@ -1,0 +1,26 @@
+{
+    "projects": [
+      {
+        "id": "professional-skills-1",
+        "title": "Professional Skills 1",
+        "description": "An application for simulating a business environment",
+        "tech": ["Python"],
+        "details": "Hier kan je meer uitleg schrijven over Professional Skills 1 project."
+      },
+      {
+        "id": "skill2-prototype",
+        "title": "SKILL2 prototype",
+        "description": "Innovative prototype for a new web application",
+        "tech": ["Figma"],
+        "details": "Meer uitleg over het prototype hier."
+      },
+      {
+        "id": "skill2-project",
+        "title": "SKILL2 project",
+        "description": "Scalable cloud infrastructure management with real-time monitoring",
+        "tech": ["Tailwind", "AlpineJS", "Laravel", "Livewire", "MySQL"],
+        "details": "Hier leg je uit hoe je cloud infra gebouwd hebt."
+      }
+    ]
+  }
+  
