@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 
-const PDF_FILE_URL = "http://localhost:5173/public/portfolio.pdf";
+const PDF_FILE_URL = "http://localhost:5173/public/cv_alexhendrickx.pdf";
 
 export const Cv = () => {
     const downloadFile = (url) => {
@@ -21,7 +21,7 @@ export const Cv = () => {
     };
 
     return (
-        <section className="pt-20 min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center">
+        <section className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center">
             {/* Terug knop */}
             <HashLink
                 to="/#about"
@@ -42,7 +42,7 @@ export const Cv = () => {
                 Download CV
             </button>
 
-            <img src="../../../portfolio.png" alt="" className="w-2/5" />    
+            <img src="../../../cv_alexhendrickx.png" alt="" className="w-2/5" />    
         </section>
     );
 }
